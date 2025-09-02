@@ -1,400 +1,400 @@
-table_schema,table_name,column_name,data_type
-entries,candidate,candidate_internal_id,bigint
-entries,candidate,centre_candidate_number,character varying
-entries,candidate,centre_id_internal,bigint
-entries,candidate,created_date_time,timestamp without time zone
-entries,candidate,date_of_birth,character varying
-entries,candidate,first_name,character varying
-entries,candidate,gender,character varying
-entries,candidate,last_name,character varying
-entries,candidate,rm_learner_id,bigint
-entries,candidate,session_id,integer
-entries,candidate,tt_external_uid,character varying
-entries,candidate,unique_candidate_id,character varying
-entries,candidate,updated_date_time,timestamp without time zone
-entries,candidate,user_name,character varying
-entries,candidate_entry,assessment_code,character varying
-entries,candidate_entry,assessment_version,integer
-entries,candidate_entry,business_stream_id,character varying
-entries,candidate_entry,candidate_internal_id,bigint
-entries,candidate_entry,centre_id_internal,bigint
-entries,candidate_entry,component_id,character varying
-entries,candidate_entry,data_source_id,integer
-entries,candidate_entry,entry_id,bigint
-entries,candidate_entry,entry_internal_id,bigint
-entries,candidate_entry,eps_audit_id,bigint
-entries,candidate_entry,geog_region,character varying
-entries,candidate_entry,is_deleted,boolean
-entries,candidate_entry,option_code,character varying
-entries,candidate_entry,qualification_id,integer
-entries,candidate_entry,rm_groupsession_id,bigint
-entries,candidate_entry,rm_learner_org_id,bigint
-entries,candidate_entry,rm_testlet_id,bigint
-entries,candidate_entry,session_id,integer
-entries,candidate_entry,status_id,integer
-entries,candidate_entry,tran_delete_datetime,timestamp without time zone
-entries,candidate_entry,tran_insert_datetime,timestamp without time zone
-entries,candidate_entry,tran_update_datetime,timestamp without time zone
-entries,candidate_entry,zone_id,integer
-entries,custom_groupsession_centre_entry_mapping,candidate_entry_id,bigint
-entries,custom_groupsession_centre_entry_mapping,centre_id,bigint
-entries,custom_groupsession_centre_entry_mapping,cs_gs_cnt_id,bigint
-entries,custom_groupsession_centre_entry_mapping,date_created,timestamp without time zone
-entries,custom_groupsession_centre_entry_mapping,gs_switch_process_id,bigint
-entries,custom_groupsession_centre_entry_mapping,new_rm_groupsession_id,bigint
-entries,delete_learnerorg_process_tracker,date_created,timestamp without time zone
-entries,delete_learnerorg_process_tracker,date_updated,timestamp without time zone
-entries,delete_learnerorg_process_tracker,entry_id,bigint
-entries,delete_learnerorg_process_tracker,id,bigint
-entries,delete_learnerorg_process_tracker,old_learnerorg_id,bigint
-entries,delete_learnerorg_process_tracker,status_id,integer
-entries,delete_learnerorg_process_tracker,tracker_id,bigint
-entries,diacritic_character_translation,eps_version,character varying
-entries,diacritic_character_translation,print_version,character varying
-entries,diacritic_character_translation,translation_id,integer
-entries,groupsession_switch_process,current_rm_groupsession_id,bigint
-entries,groupsession_switch_process,date_completed,timestamp without time zone
-entries,groupsession_switch_process,date_created,timestamp without time zone
-entries,groupsession_switch_process,date_started,timestamp without time zone
-entries,groupsession_switch_process,entries_processed_count,integer
-entries,groupsession_switch_process,gs_switch_process_id,bigint
-entries,groupsession_switch_process,ignored_count,integer
-entries,groupsession_switch_process,new_rm_groupsession_id,bigint
-entries,groupsession_switch_process,process_status,integer
-entries,groupsession_switch_process,retry_count,integer
-entries,groupsession_switch_process,to_be_processed_entries_count,integer
-entries,groupsession_switch_process_tracker,date_created,timestamp without time zone
-entries,groupsession_switch_process_tracker,date_updated,timestamp without time zone
-entries,groupsession_switch_process_tracker,entry_id,bigint
-entries,groupsession_switch_process_tracker,gs_switch_process_id,bigint
-entries,groupsession_switch_process_tracker,is_error,boolean
-entries,groupsession_switch_process_tracker,is_ignored,boolean
-entries,groupsession_switch_process_tracker,is_processed,boolean
-entries,groupsession_switch_process_tracker,tracker_id,bigint
-entries,testlet_switch,actioned_by,character varying
-entries,testlet_switch,actioned_datetime,timestamp without time zone
-entries,testlet_switch,assessment_code,character varying
-entries,testlet_switch,component_id,character varying
-entries,testlet_switch,created_datetime,timestamp without time zone
-entries,testlet_switch,current_testlet_id,bigint
-entries,testlet_switch,error_type,character varying
-entries,testlet_switch,lastupdated_datetime,timestamp without time zone
-entries,testlet_switch,new_testlet_id,bigint
-entries,testlet_switch,process_status,integer
-entries,testlet_switch,qualification_id,integer
-entries,testlet_switch,retry_count,integer
-entries,testlet_switch,session_id,integer
-entries,testlet_switch,testlet_switch_id,bigint
-entries,testlet_switch,to_be_processed_count,bigint
-entries,testlet_switch_tracker,date_created,timestamp without time zone
-entries,testlet_switch_tracker,date_updated,timestamp without time zone
-entries,testlet_switch_tracker,entry_id,bigint
-entries,testlet_switch_tracker,is_error,boolean
-entries,testlet_switch_tracker,is_processed,boolean
-entries,testlet_switch_tracker,testlet_switch_id,bigint
-entries,testlet_switch_tracker,testlet_switch_tracker_id,bigint
-entries,timetable_groupsession,assessment_code,character varying
-entries,timetable_groupsession,assessment_version,integer
-entries,timetable_groupsession,business_stream_id,character varying
-entries,timetable_groupsession,centre_id_timezone_used,character varying
-entries,timetable_groupsession,component_id,character varying
-entries,timetable_groupsession,data_source_id,integer
-entries,timetable_groupsession,duration_hours,integer
-entries,timetable_groupsession,duration_mins,integer
-entries,timetable_groupsession,eps_audit_id,bigint
-entries,timetable_groupsession,exam_end_date,character varying
-entries,timetable_groupsession,exam_start_date,character varying
-entries,timetable_groupsession,groupsession_id,character varying
-entries,timetable_groupsession,is_custom,boolean
-entries,timetable_groupsession,is_deleted,boolean
-entries,timetable_groupsession,rm_group_session_enddatetime,timestamp without time zone
-entries,timetable_groupsession,rm_group_session_startdatetime,timestamp without time zone
-entries,timetable_groupsession,rm_groupsession_id,bigint
-entries,timetable_groupsession,rm_groupsession_name,character varying
-entries,timetable_groupsession,session_id,integer
-entries,timetable_groupsession,status_id,integer
-entries,timetable_groupsession,time_of_day,character varying
-entries,timetable_groupsession,tran_delete_datetime,timestamp without time zone
-entries,timetable_groupsession,tran_insert_datetime,timestamp without time zone
-entries,timetable_groupsession,tran_update_datetime,timestamp without time zone
-entries,timetable_groupsession,workflow_status,character varying
-entries,timetable_groupsession,zone_id,integer
-marking,aggregation_process_tracker,aggregated_entry_id,bigint
-marking,aggregation_process_tracker,aggregated_score,integer
-marking,aggregation_process_tracker,aggregation_status_id,integer
-marking,aggregation_process_tracker,created_datetime,timestamp without time zone
-marking,aggregation_process_tracker,is_latest_aggregation,boolean
-marking,aggregation_process_tracker,rm_learner_org_id,bigint
-marking,aggregation_process_tracker,update_datetime,timestamp without time zone
-marking,aggregation_status,aggregation_status,character varying
-marking,aggregation_status,aggregation_status_id,integer
-marking,marker_availability,assessment_code,character varying
-marking,marker_availability,assessment_version,integer
-marking,marker_availability,atypical_scripts,integer
-marking,marker_availability,board,character varying
-marking,marker_availability,business_stream_id,character varying
-marking,marker_availability,component_id,character varying
-marking,marker_availability,component_version,integer
-marking,marker_availability,created_datetime,timestamp without time zone
-marking,marker_availability,initial_scripts,bigint
-marking,marker_availability,marker_availability_id,bigint
-marking,marker_availability,marker_id,bigint
-marking,marker_availability,marker_initials,character varying
-marking,marker_availability,marker_surname,character varying
-marking,marker_availability,marker_type,character varying
-marking,marker_availability,marking_date,date
-marking,marker_availability,max_scripts,bigint
-marking,marker_availability,panel_id,bigint
-marking,marker_availability,panel_name,character varying
-marking,marker_availability,parent_marker_id,bigint
-marking,marker_availability,position,integer
-marking,marker_availability,priority,integer
-marking,marker_availability,role_id,integer
-marking,marker_availability,role_name,character varying
-marking,marker_availability,session_id,integer
-marking,marker_availability,subject_name,character varying
-marking,marker_availability,task_description_type,character varying
-marking,marker_availability,team,integer
-marking,marking_candidate_entry,assessment_code,character varying
-marking,marking_candidate_entry,assessment_version,integer
-marking,marking_candidate_entry,business_stream_id,character varying
-marking,marking_candidate_entry,centre_candidate_number,character varying
-marking,marking_candidate_entry,centre_id,character varying
-marking,marking_candidate_entry,component_id,character varying
-marking,marking_candidate_entry,created_datetime,timestamp without time zone
-marking,marking_candidate_entry,date_of_birth,character varying
-marking,marking_candidate_entry,entry_id,bigint
-marking,marking_candidate_entry,gender,character varying
-marking,marking_candidate_entry,rm_learner_org_id,bigint
-marking,marking_candidate_entry,session_id,integer
-marking,marking_candidate_entry,unique_candidate_id,character varying
-marking,marking_candidate_entry,update_datetime,timestamp without time zone
-marking,marking_item_response,item_response,text
-marking,marking_item_response,marking_item_response_id,bigint
-marking,marking_item_response,marking_item_score_id,bigint
-marking,marking_item_score,activity_id,bigint
-marking,marking_item_score,created_datetime,timestamp without time zone
-marking,marking_item_score,interaction_id,character varying
-marking,marking_item_score,is_automarked,boolean
-marking,marking_item_score,is_viewed,boolean
-marking,marking_item_score,item_score,integer
-marking,marking_item_score,marking_item_score_id,bigint
-marking,marking_item_score,marking_item_set_id,bigint
-marking,marking_item_score,update_datetime,timestamp without time zone
-marking,marking_itemset,absent_indicator,boolean
-marking,marking_itemset,created_datetime,timestamp without time zone
-marking,marking_itemset,data_source_id,integer
-marking,marking_itemset,is_remark,boolean
-marking,marking_itemset,item_group_id,bigint
-marking,marking_itemset,marking_date,timestamp without time zone
-marking,marking_itemset,marking_item_set_id,bigint
-marking,marking_itemset,marking_method_id,integer
-marking,marking_itemset,marking_mode_id,integer
-marking,marking_itemset,production_date,timestamp without time zone
-marking,marking_itemset,rig_mark_group_id,bigint
-marking,marking_itemset,rm_learner_org_id,bigint
-marking,marking_itemset,rma_ack_id,bigint
-marking,marking_itemset,testlet_id,bigint
-marking,marking_itemset,update_datetime,timestamp without time zone
-marking,marking_itemset_marker,board,character varying
-marking,marking_itemset_marker,created_datetime,timestamp without time zone
-marking,marking_itemset_marker,marker_id,integer
-marking,marking_itemset_marker,marking_item_set_id,bigint
-marking,marking_itemset_marker,marking_itemset_marker_id,bigint
-marking,marking_itemset_marker,panel,integer
-marking,marking_itemset_marker,position,integer
-marking,marking_itemset_marker,priority,integer
-marking,marking_itemset_marker,team,integer
-marking,marking_itemset_marker,update_datetime,timestamp without time zone
-marking,marking_itemset_remark,created_datetime,timestamp without time zone
-marking,marking_itemset_remark,final_markset_selected,character varying
-marking,marking_itemset_remark,marking_item_set_id,bigint
-marking,marking_itemset_remark,marking_itemset_remark_id,bigint
-marking,marking_itemset_remark,remark_decision_reason,text
-marking,marking_itemset_remark,remark_reason,integer
-marking,marking_itemset_remark,remark_request_date,timestamp without time zone
-marking,marking_itemset_remark,update_datetime,timestamp without time zone
-marking,marking_process_itemset_mapping,aggregated_entry_id,bigint
-marking,marking_process_itemset_mapping,created_datetime,timestamp without time zone
-marking,marking_process_itemset_mapping,marking_item_set_id,bigint
-marking,marking_process_itemset_mapping,marking_process_itemset_mapping_id,bigint
-marking,marking_process_itemset_mapping,update_datetime,timestamp without time zone
-marking,marking_subitem_score,activity_id,bigint
-marking,marking_subitem_score,created_datetime,timestamp without time zone
-marking,marking_subitem_score,interaction_id,character varying
-marking,marking_subitem_score,marker_comment,text
-marking,marking_subitem_score,marking_item_set_id,bigint
-marking,marking_subitem_score,marking_subitem_score_id,bigint
-marking,marking_subitem_score,remark_review_decision,text
-marking,marking_subitem_score,remark_review_decision_comment,text
-marking,marking_subitem_score,remark_review_decision_reason,text
-marking,marking_subitem_score,response_status,character varying
-marking,marking_subitem_score,subitem_id,bigint
-marking,marking_subitem_score,subitem_score,integer
-marking,marking_subitem_score,update_datetime,timestamp without time zone
-marking,marks_transfer_process_tracker,aggregated_entry_id,bigint
-marking,marks_transfer_process_tracker,created_datetime,timestamp without time zone
-marking,marks_transfer_process_tracker,error_message,text
-marking,marks_transfer_process_tracker,marks_transfer_datetime,timestamp without time zone
-marking,marks_transfer_process_tracker,marks_transfer_id,bigint
-marking,marks_transfer_process_tracker,marks_transfer_status_id,integer
-marking,marks_transfer_process_tracker,update_datetime,timestamp without time zone
-public,ans_string,responses,text
-public,assessment,assessment_code,character varying
-public,assessment,assessment_version,integer
-public,assessment,name,character varying
-public,assessment,qualification_id,integer
-public,assessment,short_name,character varying
-public,assessment_component,assessment_code,character varying
-public,assessment_component,assessment_version,integer
-public,assessment_component,component_id,character varying
-public,assessment_component,component_name,character varying
-public,assessment_component,me_id,character varying
-public,assessment_component,me_name,character varying
-public,business_stream,business_stream_id,character varying
-public,business_stream,name,character varying
-public,business_stream,short_name,character varying
-public,centre,business_stream_id,character varying
-public,centre,centre_id,character varying
-public,centre,centre_id_internal,bigint
-public,centre,centre_name,character varying
-public,centre,created_date_time,timestamp without time zone
-public,centre,rm_group_id,bigint
-public,centre,updated_date_time,timestamp without time zone
-public,centre,zone_id,integer
-public,centre_timezone,am_local_key_time,character varying
-public,centre_timezone,centre_id_internal,bigint
-public,centre_timezone,centre_timezone_internal_id,bigint
-public,centre_timezone,ev_local_key_time,character varying
-public,centre_timezone,pm_local_key_time,character varying
-public,centre_timezone,utc_offset,character varying
-public,component_test,assessment_code,character varying
-public,component_test,assessment_version,integer
-public,component_test,component_id,character varying
-public,component_test,ct_id,character varying
-public,component_test,session_id,integer
-public,data_source,data_source_id,integer
-public,data_source,name,character varying
-public,exclusion_process_type,description,character varying
-public,exclusion_process_type,exclusion_process_type_id,integer
-public,exclusion_window,created_by,character varying
-public,exclusion_window,created_datetime,timestamp without time zone
-public,exclusion_window,exclusion_date,character varying
-public,exclusion_window,exclusion_day_of_week,character varying
-public,exclusion_window,exclusion_process_type_id,integer
-public,exclusion_window,exclusion_window_id,bigint
-public,exclusion_window,exclusion_window_type_id,integer
-public,exclusion_window,is_enabled,boolean
-public,exclusion_window,updated_by,character varying
-public,exclusion_window,updated_datetime,timestamp without time zone
-public,exclusion_window,window_end,character varying
-public,exclusion_window,window_start,character varying
-public,exclusion_window_type,description,character varying
-public,exclusion_window_type,exclusion_window_type_id,integer
-public,process_status,status_desc,character varying
-public,process_status,status_id,integer
-public,qualification,business_stream_id,character varying
-public,qualification,qual_name,character varying
-public,qualification,qual_short_name,character varying
-public,qualification,qualification_id,integer
-public,reference_code,reference_code,character varying
-public,reference_code,reference_code_description,character varying
-public,reference_code,reference_code_id,integer
-public,reference_code,reference_code_name,character varying
-public,reference_code,reference_code_type,character varying
-public,session,business_stream_id,character varying
-public,session,is_active,boolean
-public,session,seq_num,character varying
-public,session,session_id,integer
-public,session,session_name,character varying
-public,session,session_type,character varying
-public,session,session_year,character varying
-public,session_assessment,assessment_code,character varying
-public,session_assessment,assessment_version,integer
-public,session_assessment,session_assessment_id,bigint
-public,session_assessment,session_id,integer
-testlet,payload_audit,consume,timestamp without time zone
-testlet,payload_audit,error_message,text
-testlet,payload_audit,error_occurred,timestamp without time zone
-testlet,payload_audit,object_parsed,timestamp without time zone
-testlet,payload_audit,payload,text
-testlet,payload_audit,tables_populated,timestamp without time zone
-testlet,payload_audit,testlet_lookup_cleanup,timestamp without time zone
-testlet,payload_audit,toplevel_testlet_id,bigint
-testlet,payload_audit,tracking_id,character varying
-testlet,subtestlet_type,subtestlet_type_id,integer
-testlet,subtestlet_type,subtestlet_type_name,character varying
-testlet,testlet_activities,activity_id,bigint
-testlet,testlet_activities,activity_order,integer
-testlet,testlet_activities,created_by,character varying
-testlet,testlet_activities,created_date,timestamp without time zone
-testlet,testlet_activities,is_optionality_enabled,boolean
-testlet,testlet_activities,max_expect_responses,bigint
-testlet,testlet_activities,subtestlet_internal_id,bigint
-testlet,testlet_activities,testlet_activity_internal_id,bigint
-testlet,testlet_activities,updated_by,character varying
-testlet,testlet_activities,updated_date,timestamp without time zone
-testlet,testlet_ignored_items,id,integer
-testlet,testlet_ignored_items,interaction_prefix_name,character varying
-testlet,testlet_item_answerkey,created_by,character varying
-testlet,testlet_item_answerkey,created_date,timestamp without time zone
-testlet,testlet_item_answerkey,item_answer_key,text
-testlet,testlet_item_answerkey,itemanswerkey,character varying
-testlet,testlet_item_answerkey,testlet_item_answerkey_internal_id,bigint
-testlet,testlet_item_answerkey,testlet_item_internal_id,bigint
-testlet,testlet_item_answerkey,updated_by,character varying
-testlet,testlet_item_answerkey,updated_date,timestamp without time zone
-testlet,testlet_items,created_by,character varying
-testlet,testlet_items,created_date,timestamp without time zone
-testlet,testlet_items,interaction_id,character varying
-testlet,testlet_items,is_auto_marked,boolean
-testlet,testlet_items,item_order,integer
-testlet,testlet_items,question_number,character varying
-testlet,testlet_items,questionnumber,bigint
-testlet,testlet_items,testlet_activity_internal_id,bigint
-testlet,testlet_items,testlet_item_internal_id,bigint
-testlet,testlet_items,total_distractors,bigint
-testlet,testlet_items,updated_by,character varying
-testlet,testlet_items,updated_date,timestamp without time zone
-testlet,testlet_sub_item,created_by,character varying
-testlet,testlet_sub_item,created_date,timestamp without time zone
-testlet,testlet_sub_item,sub_item_id,bigint
-testlet,testlet_sub_item,subitem_description,character varying
-testlet,testlet_sub_item,testlet_item_internal_id,bigint
-testlet,testlet_sub_item,testlet_sub_item_internal_id,bigint
-testlet,testlet_sub_item,updated_by,character varying
-testlet,testlet_sub_item,updated_date,timestamp without time zone
-testlet,testlet_subtestlet,created_by,character varying
-testlet,testlet_subtestlet,created_date,timestamp without time zone
-testlet,testlet_subtestlet,is_optionality_enabled,boolean
-testlet,testlet_subtestlet,max_expect_responses,bigint
-testlet,testlet_subtestlet,parent_testlet_id,bigint
-testlet,testlet_subtestlet,subtestlet_id,bigint
-testlet,testlet_subtestlet,subtestlet_internal_id,bigint
-testlet,testlet_subtestlet,subtestlet_type_id,integer
-testlet,testlet_subtestlet,title,character varying
-testlet,testlet_subtestlet,toplevel_testlet_id,bigint
-testlet,testlet_subtestlet,updated_by,character varying
-testlet,testlet_subtestlet,updated_date,timestamp without time zone
-testlet,testlet_top_level,assessment_code,character varying
-testlet,testlet_top_level,assessment_version,bigint
-testlet,testlet_top_level,business_stream,character varying
-testlet,testlet_top_level,business_stream_id,character varying
-testlet,testlet_top_level,business_stream_name,character varying
-testlet,testlet_top_level,component_id,character varying
-testlet,testlet_top_level,created_by,character varying
-testlet,testlet_top_level,created_date,timestamp without time zone
-testlet,testlet_top_level,is_active,boolean
-testlet,testlet_top_level,session_id,bigint
-testlet,testlet_top_level,session_name,character varying
-testlet,testlet_top_level,test_identifier,bigint
-testlet,testlet_top_level,test_title,character varying
-testlet,testlet_top_level,testlet_asset_id,bigint
-testlet,testlet_top_level,testlet_date_modified,timestamp without time zone
-testlet,testlet_top_level,testlet_type,character varying
-testlet,testlet_top_level,testlet_type_id,integer
-testlet,testlet_top_level,toplevel_testlet_id,bigint
-testlet,testlet_top_level,updated_by,character varying
-testlet,testlet_top_level,updated_date,timestamp without time zone
-testlet,testlet_type,testlet_type_id,integer
-testlet,testlet_type,testlet_type_name,character varying
+table_schema,table_name,column_name,equivalent_ods_name,data_type
+entries,candidate,candidate_internal_id,,bigint
+entries,candidate,centre_candidate_number,,character varying
+entries,candidate,centre_id_internal,,bigint
+entries,candidate,created_date_time,,timestamp without time zone
+entries,candidate,date_of_birth,,character varying
+entries,candidate,first_name,,character varying
+entries,candidate,gender,db_sd.Genders.Name,character varying
+entries,candidate,last_name,,character varying
+entries,candidate,rm_learner_id,,bigint
+entries,candidate,session_id,SessionID,integer
+entries,candidate,tt_external_uid,,character varying
+entries,candidate,unique_candidate_id,,character varying
+entries,candidate,updated_date_time,,timestamp without time zone
+entries,candidate,user_name,,character varying
+entries,candidate_entry,assessment_code,AssessmentCode,character varying
+entries,candidate_entry,assessment_version,AssessmentVersionNumber,integer
+entries,candidate_entry,business_stream_id,BusinessStreamID,character varying
+entries,candidate_entry,candidate_internal_id,,bigint
+entries,candidate_entry,centre_id_internal,,bigint
+entries,candidate_entry,component_id,ComponentID,character varying
+entries,candidate_entry,data_source_id,,integer
+entries,candidate_entry,entry_id,,bigint
+entries,candidate_entry,entry_internal_id,,bigint
+entries,candidate_entry,eps_audit_id,,bigint
+entries,candidate_entry,geog_region,,character varying
+entries,candidate_entry,is_deleted,,boolean
+entries,candidate_entry,option_code,OptionCode,character varying
+entries,candidate_entry,qualification_id,QualificationID,integer
+entries,candidate_entry,rm_groupsession_id,,bigint
+entries,candidate_entry,rm_learner_org_id,,bigint
+entries,candidate_entry,rm_testlet_id,,bigint
+entries,candidate_entry,session_id,SessionID,integer
+entries,candidate_entry,status_id,,integer
+entries,candidate_entry,tran_delete_datetime,,timestamp without time zone
+entries,candidate_entry,tran_insert_datetime,,timestamp without time zone
+entries,candidate_entry,tran_update_datetime,,timestamp without time zone
+entries,candidate_entry,zone_id,,integer
+entries,custom_groupsession_centre_entry_mapping,candidate_entry_id,CandidateEntryID,bigint
+entries,custom_groupsession_centre_entry_mapping,centre_id,,bigint
+entries,custom_groupsession_centre_entry_mapping,cs_gs_cnt_id,,bigint
+entries,custom_groupsession_centre_entry_mapping,date_created,,timestamp without time zone
+entries,custom_groupsession_centre_entry_mapping,gs_switch_process_id,,bigint
+entries,custom_groupsession_centre_entry_mapping,new_rm_groupsession_id,,bigint
+entries,delete_learnerorg_process_tracker,date_created,,timestamp without time zone
+entries,delete_learnerorg_process_tracker,date_updated,,timestamp without time zone
+entries,delete_learnerorg_process_tracker,entry_id,,bigint
+entries,delete_learnerorg_process_tracker,id,,bigint
+entries,delete_learnerorg_process_tracker,old_learnerorg_id,,bigint
+entries,delete_learnerorg_process_tracker,status_id,,integer
+entries,delete_learnerorg_process_tracker,tracker_id,,bigint
+entries,diacritic_character_translation,eps_version,,character varying
+entries,diacritic_character_translation,print_version,,character varying
+entries,diacritic_character_translation,translation_id,,integer
+entries,groupsession_switch_process,current_rm_groupsession_id,,bigint
+entries,groupsession_switch_process,date_completed,,timestamp without time zone
+entries,groupsession_switch_process,date_created,,timestamp without time zone
+entries,groupsession_switch_process,date_started,,timestamp without time zone
+entries,groupsession_switch_process,entries_processed_count,,integer
+entries,groupsession_switch_process,gs_switch_process_id,,bigint
+entries,groupsession_switch_process,ignored_count,,integer
+entries,groupsession_switch_process,new_rm_groupsession_id,,bigint
+entries,groupsession_switch_process,process_status,,integer
+entries,groupsession_switch_process,retry_count,,integer
+entries,groupsession_switch_process,to_be_processed_entries_count,,integer
+entries,groupsession_switch_process_tracker,date_created,,timestamp without time zone
+entries,groupsession_switch_process_tracker,date_updated,,timestamp without time zone
+entries,groupsession_switch_process_tracker,entry_id,,bigint
+entries,groupsession_switch_process_tracker,gs_switch_process_id,,bigint
+entries,groupsession_switch_process_tracker,is_error,,boolean
+entries,groupsession_switch_process_tracker,is_ignored,,boolean
+entries,groupsession_switch_process_tracker,is_processed,,boolean
+entries,groupsession_switch_process_tracker,tracker_id,,bigint
+entries,testlet_switch,actioned_by,,character varying
+entries,testlet_switch,actioned_datetime,,timestamp without time zone
+entries,testlet_switch,assessment_code,AssessmentCode,character varying
+entries,testlet_switch,component_id,ComponentID,character varying
+entries,testlet_switch,created_datetime,,timestamp without time zone
+entries,testlet_switch,current_testlet_id,,bigint
+entries,testlet_switch,error_type,,character varying
+entries,testlet_switch,lastupdated_datetime,,timestamp without time zone
+entries,testlet_switch,new_testlet_id,,bigint
+entries,testlet_switch,process_status,,integer
+entries,testlet_switch,qualification_id,QualificationID,integer
+entries,testlet_switch,retry_count,,integer
+entries,testlet_switch,session_id,SessionID,integer
+entries,testlet_switch,testlet_switch_id,,bigint
+entries,testlet_switch,to_be_processed_count,,bigint
+entries,testlet_switch_tracker,date_created,,timestamp without time zone
+entries,testlet_switch_tracker,date_updated,,timestamp without time zone
+entries,testlet_switch_tracker,entry_id,,bigint
+entries,testlet_switch_tracker,is_error,,boolean
+entries,testlet_switch_tracker,is_processed,,boolean
+entries,testlet_switch_tracker,testlet_switch_id,,bigint
+entries,testlet_switch_tracker,testlet_switch_tracker_id,,bigint
+entries,timetable_groupsession,assessment_code,AssessmentCode,character varying
+entries,timetable_groupsession,assessment_version,AssessmentVersionNumber,integer
+entries,timetable_groupsession,business_stream_id,BusinessStreamID,character varying
+entries,timetable_groupsession,centre_id_timezone_used,,character varying
+entries,timetable_groupsession,component_id,ComponentID,character varying
+entries,timetable_groupsession,data_source_id,,integer
+entries,timetable_groupsession,duration_hours,,integer
+entries,timetable_groupsession,duration_mins,,integer
+entries,timetable_groupsession,eps_audit_id,,bigint
+entries,timetable_groupsession,exam_end_date,,character varying
+entries,timetable_groupsession,exam_start_date,,character varying
+entries,timetable_groupsession,groupsession_id,,character varying
+entries,timetable_groupsession,is_custom,,boolean
+entries,timetable_groupsession,is_deleted,,boolean
+entries,timetable_groupsession,rm_group_session_enddatetime,,timestamp without time zone
+entries,timetable_groupsession,rm_group_session_startdatetime,,timestamp without time zone
+entries,timetable_groupsession,rm_groupsession_id,,bigint
+entries,timetable_groupsession,rm_groupsession_name,,character varying
+entries,timetable_groupsession,session_id,SessionID,integer
+entries,timetable_groupsession,status_id,,integer
+entries,timetable_groupsession,time_of_day,,character varying
+entries,timetable_groupsession,tran_delete_datetime,,timestamp without time zone
+entries,timetable_groupsession,tran_insert_datetime,,timestamp without time zone
+entries,timetable_groupsession,tran_update_datetime,,timestamp without time zone
+entries,timetable_groupsession,workflow_status,,character varying
+entries,timetable_groupsession,zone_id,,integer
+marking,aggregation_process_tracker,aggregated_entry_id,,bigint
+marking,aggregation_process_tracker,aggregated_score,,integer
+marking,aggregation_process_tracker,aggregation_status_id,,integer
+marking,aggregation_process_tracker,created_datetime,,timestamp without time zone
+marking,aggregation_process_tracker,is_latest_aggregation,,boolean
+marking,aggregation_process_tracker,rm_learner_org_id,,bigint
+marking,aggregation_process_tracker,update_datetime,,timestamp without time zone
+marking,aggregation_status,aggregation_status,,character varying
+marking,aggregation_status,aggregation_status_id,,integer
+marking,marker_availability,assessment_code,AssessmentCode,character varying
+marking,marker_availability,assessment_version,AssessmentVersionNumber,integer
+marking,marker_availability,atypical_scripts,,integer
+marking,marker_availability,board,,character varying
+marking,marker_availability,business_stream_id,BusinessStreamID,character varying
+marking,marker_availability,component_id,ComponentID,character varying
+marking,marker_availability,component_version,,integer
+marking,marker_availability,created_datetime,,timestamp without time zone
+marking,marker_availability,initial_scripts,,bigint
+marking,marker_availability,marker_availability_id,,bigint
+marking,marker_availability,marker_id,,bigint
+marking,marker_availability,marker_initials,,character varying
+marking,marker_availability,marker_surname,,character varying
+marking,marker_availability,marker_type,,character varying
+marking,marker_availability,marking_date,,date
+marking,marker_availability,max_scripts,,bigint
+marking,marker_availability,panel_id,,bigint
+marking,marker_availability,panel_name,,character varying
+marking,marker_availability,parent_marker_id,,bigint
+marking,marker_availability,position,,integer
+marking,marker_availability,priority,,integer
+marking,marker_availability,role_id,,integer
+marking,marker_availability,role_name,,character varying
+marking,marker_availability,session_id,SessionID,integer
+marking,marker_availability,subject_name,,character varying
+marking,marker_availability,task_description_type,,character varying
+marking,marker_availability,team,,integer
+marking,marking_candidate_entry,assessment_code,AssessmentCode,character varying
+marking,marking_candidate_entry,assessment_version,AssessmentVersionNumber,integer
+marking,marking_candidate_entry,business_stream_id,BusinessStreamID,character varying
+marking,marking_candidate_entry,centre_candidate_number,,character varying
+marking,marking_candidate_entry,centre_id,CentreNumber,character varying
+marking,marking_candidate_entry,component_id,ComponentID,character varying
+marking,marking_candidate_entry,created_datetime,,timestamp without time zone
+marking,marking_candidate_entry,date_of_birth,,character varying
+marking,marking_candidate_entry,entry_id,,bigint
+marking,marking_candidate_entry,gender,db_sd.Genders.Name,character varying
+marking,marking_candidate_entry,rm_learner_org_id,,bigint
+marking,marking_candidate_entry,session_id,SessionID,integer
+marking,marking_candidate_entry,unique_candidate_id,,character varying
+marking,marking_candidate_entry,update_datetime,,timestamp without time zone
+marking,marking_item_response,item_response,,text
+marking,marking_item_response,marking_item_response_id,,bigint
+marking,marking_item_response,marking_item_score_id,,bigint
+marking,marking_item_score,activity_id,,bigint
+marking,marking_item_score,created_datetime,,timestamp without time zone
+marking,marking_item_score,interaction_id,,character varying
+marking,marking_item_score,is_automarked,,boolean
+marking,marking_item_score,is_viewed,,boolean
+marking,marking_item_score,item_score,,integer
+marking,marking_item_score,marking_item_score_id,,bigint
+marking,marking_item_score,marking_item_set_id,,bigint
+marking,marking_item_score,update_datetime,,timestamp without time zone
+marking,marking_itemset,absent_indicator,,boolean
+marking,marking_itemset,created_datetime,,timestamp without time zone
+marking,marking_itemset,data_source_id,,integer
+marking,marking_itemset,is_remark,,boolean
+marking,marking_itemset,item_group_id,,bigint
+marking,marking_itemset,marking_date,,timestamp without time zone
+marking,marking_itemset,marking_item_set_id,,bigint
+marking,marking_itemset,marking_method_id,,integer
+marking,marking_itemset,marking_mode_id,,integer
+marking,marking_itemset,production_date,,timestamp without time zone
+marking,marking_itemset,rig_mark_group_id,,bigint
+marking,marking_itemset,rm_learner_org_id,,bigint
+marking,marking_itemset,rma_ack_id,,bigint
+marking,marking_itemset,testlet_id,,bigint
+marking,marking_itemset,update_datetime,,timestamp without time zone
+marking,marking_itemset_marker,board,,character varying
+marking,marking_itemset_marker,created_datetime,,timestamp without time zone
+marking,marking_itemset_marker,marker_id,,integer
+marking,marking_itemset_marker,marking_item_set_id,,bigint
+marking,marking_itemset_marker,marking_itemset_marker_id,,bigint
+marking,marking_itemset_marker,panel,,integer
+marking,marking_itemset_marker,position,,integer
+marking,marking_itemset_marker,priority,,integer
+marking,marking_itemset_marker,team,,integer
+marking,marking_itemset_marker,update_datetime,,timestamp without time zone
+marking,marking_itemset_remark,created_datetime,,timestamp without time zone
+marking,marking_itemset_remark,final_markset_selected,,character varying
+marking,marking_itemset_remark,marking_item_set_id,,bigint
+marking,marking_itemset_remark,marking_itemset_remark_id,,bigint
+marking,marking_itemset_remark,remark_decision_reason,,text
+marking,marking_itemset_remark,remark_reason,,integer
+marking,marking_itemset_remark,remark_request_date,,timestamp without time zone
+marking,marking_itemset_remark,update_datetime,,timestamp without time zone
+marking,marking_process_itemset_mapping,aggregated_entry_id,,bigint
+marking,marking_process_itemset_mapping,created_datetime,,timestamp without time zone
+marking,marking_process_itemset_mapping,marking_item_set_id,,bigint
+marking,marking_process_itemset_mapping,marking_process_itemset_mapping_id,,bigint
+marking,marking_process_itemset_mapping,update_datetime,,timestamp without time zone
+marking,marking_subitem_score,activity_id,,bigint
+marking,marking_subitem_score,created_datetime,,timestamp without time zone
+marking,marking_subitem_score,interaction_id,,character varying
+marking,marking_subitem_score,marker_comment,,text
+marking,marking_subitem_score,marking_item_set_id,,bigint
+marking,marking_subitem_score,marking_subitem_score_id,,bigint
+marking,marking_subitem_score,remark_review_decision,,text
+marking,marking_subitem_score,remark_review_decision_comment,,text
+marking,marking_subitem_score,remark_review_decision_reason,,text
+marking,marking_subitem_score,response_status,,character varying
+marking,marking_subitem_score,subitem_id,,bigint
+marking,marking_subitem_score,subitem_score,,integer
+marking,marking_subitem_score,update_datetime,,timestamp without time zone
+marking,marks_transfer_process_tracker,aggregated_entry_id,,bigint
+marking,marks_transfer_process_tracker,created_datetime,,timestamp without time zone
+marking,marks_transfer_process_tracker,error_message,,text
+marking,marks_transfer_process_tracker,marks_transfer_datetime,,timestamp without time zone
+marking,marks_transfer_process_tracker,marks_transfer_id,,bigint
+marking,marks_transfer_process_tracker,marks_transfer_status_id,,integer
+marking,marks_transfer_process_tracker,update_datetime,,timestamp without time zone
+public,ans_string,responses,,text
+public,assessment,assessment_code,AssessmentCode,character varying
+public,assessment,assessment_version,AssessmentVersionNumber,integer
+public,assessment,name,AssessmentName,character varying
+public,assessment,qualification_id,QualificationID,integer
+public,assessment,short_name,,character varying
+public,assessment_component,assessment_code,AssessmentCode,character varying
+public,assessment_component,assessment_version,AssessmentVersionNumber,integer
+public,assessment_component,component_id,ComponentID,character varying
+public,assessment_component,component_name,ComponentName,character varying
+public,assessment_component,me_id,,character varying
+public,assessment_component,me_name,,character varying
+public,business_stream,business_stream_id,BusinessStreamID,character varying
+public,business_stream,name,,character varying
+public,business_stream,short_name,,character varying
+public,centre,business_stream_id,BusinessStreamID,character varying
+public,centre,centre_id,CentreNumber,character varying
+public,centre,centre_id_internal,,bigint
+public,centre,centre_name,,character varying
+public,centre,created_date_time,,timestamp without time zone
+public,centre,rm_group_id,,bigint
+public,centre,updated_date_time,,timestamp without time zone
+public,centre,zone_id,,integer
+public,centre_timezone,am_local_key_time,,character varying
+public,centre_timezone,centre_id_internal,,bigint
+public,centre_timezone,centre_timezone_internal_id,,bigint
+public,centre_timezone,ev_local_key_time,,character varying
+public,centre_timezone,pm_local_key_time,,character varying
+public,centre_timezone,utc_offset,,character varying
+public,component_test,assessment_code,AssessmentCode,character varying
+public,component_test,assessment_version,AssessmentVersionNumber,integer
+public,component_test,component_id,ComponentID,character varying
+public,component_test,ct_id,,character varying
+public,component_test,session_id,SessionID,integer
+public,data_source,data_source_id,,integer
+public,data_source,name,,character varying
+public,exclusion_process_type,description,,character varying
+public,exclusion_process_type,exclusion_process_type_id,,integer
+public,exclusion_window,created_by,,character varying
+public,exclusion_window,created_datetime,,timestamp without time zone
+public,exclusion_window,exclusion_date,,character varying
+public,exclusion_window,exclusion_day_of_week,,character varying
+public,exclusion_window,exclusion_process_type_id,,integer
+public,exclusion_window,exclusion_window_id,,bigint
+public,exclusion_window,exclusion_window_type_id,,integer
+public,exclusion_window,is_enabled,,boolean
+public,exclusion_window,updated_by,,character varying
+public,exclusion_window,updated_datetime,,timestamp without time zone
+public,exclusion_window,window_end,,character varying
+public,exclusion_window,window_start,,character varying
+public,exclusion_window_type,description,,character varying
+public,exclusion_window_type,exclusion_window_type_id,,integer
+public,process_status,status_desc,,character varying
+public,process_status,status_id,,integer
+public,qualification,business_stream_id,BusinessStreamID,character varying
+public,qualification,qual_name,,character varying
+public,qualification,qual_short_name,,character varying
+public,qualification,qualification_id,QualificationID,integer
+public,reference_code,reference_code,,character varying
+public,reference_code,reference_code_description,,character varying
+public,reference_code,reference_code_id,,integer
+public,reference_code,reference_code_name,,character varying
+public,reference_code,reference_code_type,,character varying
+public,session,business_stream_id,BusinessStreamID,character varying
+public,session,is_active,,boolean
+public,session,seq_num,,character varying
+public,session,session_id,SessionID,integer
+public,session,session_name,SessionName,character varying
+public,session,session_type,SessionType,character varying
+public,session,session_year,,character varying
+public,session_assessment,assessment_code,AssessmentCode,character varying
+public,session_assessment,assessment_version,AssessmentVersionNumber,integer
+public,session_assessment,session_assessment_id,,bigint
+public,session_assessment,session_id,SessionID,integer
+testlet,payload_audit,consume,,timestamp without time zone
+testlet,payload_audit,error_message,,text
+testlet,payload_audit,error_occurred,,timestamp without time zone
+testlet,payload_audit,object_parsed,,timestamp without time zone
+testlet,payload_audit,payload,,text
+testlet,payload_audit,tables_populated,,timestamp without time zone
+testlet,payload_audit,testlet_lookup_cleanup,,timestamp without time zone
+testlet,payload_audit,toplevel_testlet_id,,bigint
+testlet,payload_audit,tracking_id,,character varying
+testlet,subtestlet_type,subtestlet_type_id,,integer
+testlet,subtestlet_type,subtestlet_type_name,,character varying
+testlet,testlet_activities,activity_id,,bigint
+testlet,testlet_activities,activity_order,,integer
+testlet,testlet_activities,created_by,,character varying
+testlet,testlet_activities,created_date,,timestamp without time zone
+testlet,testlet_activities,is_optionality_enabled,,boolean
+testlet,testlet_activities,max_expect_responses,,bigint
+testlet,testlet_activities,subtestlet_internal_id,,bigint
+testlet,testlet_activities,testlet_activity_internal_id,,bigint
+testlet,testlet_activities,updated_by,,character varying
+testlet,testlet_activities,updated_date,,timestamp without time zone
+testlet,testlet_ignored_items,id,,integer
+testlet,testlet_ignored_items,interaction_prefix_name,,character varying
+testlet,testlet_item_answerkey,created_by,,character varying
+testlet,testlet_item_answerkey,created_date,,timestamp without time zone
+testlet,testlet_item_answerkey,item_answer_key,,text
+testlet,testlet_item_answerkey,itemanswerkey,,character varying
+testlet,testlet_item_answerkey,testlet_item_answerkey_internal_id,,bigint
+testlet,testlet_item_answerkey,testlet_item_internal_id,,bigint
+testlet,testlet_item_answerkey,updated_by,,character varying
+testlet,testlet_item_answerkey,updated_date,,timestamp without time zone
+testlet,testlet_items,created_by,,character varying
+testlet,testlet_items,created_date,,timestamp without time zone
+testlet,testlet_items,interaction_id,,character varying
+testlet,testlet_items,is_auto_marked,,boolean
+testlet,testlet_items,item_order,,integer
+testlet,testlet_items,question_number,,character varying
+testlet,testlet_items,questionnumber,,bigint
+testlet,testlet_items,testlet_activity_internal_id,,bigint
+testlet,testlet_items,testlet_item_internal_id,,bigint
+testlet,testlet_items,total_distractors,,bigint
+testlet,testlet_items,updated_by,,character varying
+testlet,testlet_items,updated_date,,timestamp without time zone
+testlet,testlet_sub_item,created_by,,character varying
+testlet,testlet_sub_item,created_date,,timestamp without time zone
+testlet,testlet_sub_item,sub_item_id,,bigint
+testlet,testlet_sub_item,subitem_description,,character varying
+testlet,testlet_sub_item,testlet_item_internal_id,,bigint
+testlet,testlet_sub_item,testlet_sub_item_internal_id,,bigint
+testlet,testlet_sub_item,updated_by,,character varying
+testlet,testlet_sub_item,updated_date,,timestamp without time zone
+testlet,testlet_subtestlet,created_by,,character varying
+testlet,testlet_subtestlet,created_date,,timestamp without time zone
+testlet,testlet_subtestlet,is_optionality_enabled,,boolean
+testlet,testlet_subtestlet,max_expect_responses,,bigint
+testlet,testlet_subtestlet,parent_testlet_id,,bigint
+testlet,testlet_subtestlet,subtestlet_id,,bigint
+testlet,testlet_subtestlet,subtestlet_internal_id,,bigint
+testlet,testlet_subtestlet,subtestlet_type_id,,integer
+testlet,testlet_subtestlet,title,,character varying
+testlet,testlet_subtestlet,toplevel_testlet_id,,bigint
+testlet,testlet_subtestlet,updated_by,,character varying
+testlet,testlet_subtestlet,updated_date,,timestamp without time zone
+testlet,testlet_top_level,assessment_code,AssessmentCode,character varying
+testlet,testlet_top_level,assessment_version,AssessmentVersionNumber,bigint
+testlet,testlet_top_level,business_stream,,character varying
+testlet,testlet_top_level,business_stream_id,BusinessStreamID,character varying
+testlet,testlet_top_level,business_stream_name,,character varying
+testlet,testlet_top_level,component_id,ComponentID,character varying
+testlet,testlet_top_level,created_by,,character varying
+testlet,testlet_top_level,created_date,,timestamp without time zone
+testlet,testlet_top_level,is_active,,boolean
+testlet,testlet_top_level,session_id,SessionID,bigint
+testlet,testlet_top_level,session_name,SessionName,character varying
+testlet,testlet_top_level,test_identifier,QuestionPaperID,bigint
+testlet,testlet_top_level,test_title,,character varying
+testlet,testlet_top_level,testlet_asset_id,,bigint
+testlet,testlet_top_level,testlet_date_modified,,timestamp without time zone
+testlet,testlet_top_level,testlet_type,,character varying
+testlet,testlet_top_level,testlet_type_id,,integer
+testlet,testlet_top_level,toplevel_testlet_id,,bigint
+testlet,testlet_top_level,updated_by,,character varying
+testlet,testlet_top_level,updated_date,,timestamp without time zone
+testlet,testlet_type,testlet_type_id,,integer
+testlet,testlet_type,testlet_type_name,,character varying
