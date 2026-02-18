@@ -1,0 +1,3 @@
+db_ca.CandidateComponentResults
+db_s.SessionAssessmentComponents
+db_rs.CI_coversheets
